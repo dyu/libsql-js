@@ -18,4 +18,6 @@ fi
 # change pwd
 cd $SCRIPT_DIR
 
+[ -e node_modules ] || pnpm install
+
 LIBSQL_JS_DEV=1 pnpm run build
