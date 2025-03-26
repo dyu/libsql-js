@@ -802,6 +802,7 @@ dependencies = [
 [[package]]
 name = "libsql"
 version = "0.9.1"
+source = "git+https://github.com/dyu/libsql.git?rev=a8ab66d75d3346526eba1ce8e0be4fa974bf7eca#a8ab66d75d3346526eba1ce8e0be4fa974bf7eca"
 dependencies = [
  "anyhow",
  "async-stream",
@@ -840,6 +841,7 @@ dependencies = [
 [[package]]
 name = "libsql-ffi"
 version = "0.9.1"
+source = "git+https://github.com/dyu/libsql.git?rev=a8ab66d75d3346526eba1ce8e0be4fa974bf7eca#a8ab66d75d3346526eba1ce8e0be4fa974bf7eca"
 dependencies = [
  "bindgen",
  "cc",
@@ -849,6 +851,7 @@ dependencies = [
 [[package]]
 name = "libsql-hrana"
 version = "0.9.1"
+source = "git+https://github.com/dyu/libsql.git?rev=a8ab66d75d3346526eba1ce8e0be4fa974bf7eca#a8ab66d75d3346526eba1ce8e0be4fa974bf7eca"
 dependencies = [
  "base64 0.21.7",
  "bytes",
@@ -871,6 +874,7 @@ dependencies = [
 [[package]]
 name = "libsql-rusqlite"
 version = "0.9.1"
+source = "git+https://github.com/dyu/libsql.git?rev=a8ab66d75d3346526eba1ce8e0be4fa974bf7eca#a8ab66d75d3346526eba1ce8e0be4fa974bf7eca"
 dependencies = [
  "bitflags 2.6.0",
  "fallible-iterator 0.2.0",
@@ -883,6 +887,7 @@ dependencies = [
 [[package]]
 name = "libsql-sqlite3-parser"
 version = "0.13.0"
+source = "git+https://github.com/dyu/libsql.git?rev=a8ab66d75d3346526eba1ce8e0be4fa974bf7eca#a8ab66d75d3346526eba1ce8e0be4fa974bf7eca"
 dependencies = [
  "bitflags 2.6.0",
  "cc",
@@ -899,6 +904,7 @@ dependencies = [
 [[package]]
 name = "libsql-sys"
 version = "0.9.1"
+source = "git+https://github.com/dyu/libsql.git?rev=a8ab66d75d3346526eba1ce8e0be4fa974bf7eca#a8ab66d75d3346526eba1ce8e0be4fa974bf7eca"
 dependencies = [
  "bytes",
  "libsql-ffi",
@@ -911,6 +917,7 @@ dependencies = [
 [[package]]
 name = "libsql_replication"
 version = "0.9.1"
+source = "git+https://github.com/dyu/libsql.git?rev=a8ab66d75d3346526eba1ce8e0be4fa974bf7eca#a8ab66d75d3346526eba1ce8e0be4fa974bf7eca"
 dependencies = [
  "aes",
  "async-stream",
