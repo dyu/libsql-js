@@ -135,14 +135,24 @@ const row = db.prepare("SELECT * FROM users WHERE id = ?").get(1);
 
 ## Developing
 
-To build the `libsql` package, run:
+### Building
 
+#### pnpm
+```console
+./build.sh
+```
+#### npm
 ```console
 LIBSQL_JS_DEV=1 npm run build
 ```
 
-You can then run the integration tests with:
+### Testing
 
+#### pnpm
+```console
+./test.sh
+```
+#### npm
 ```console
 export LIBSQL_JS_DEV=1
 npm link
